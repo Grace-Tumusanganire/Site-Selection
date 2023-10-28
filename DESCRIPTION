@@ -1,0 +1,23 @@
+Package: siteselection
+Title: This package selects suitable sites for a new project
+Version: 0.0.0.9000
+Authors@R: 
+    person("Grace", "Tumusanganire", , "gracetumusanganire@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    ggplot2,
+    mapview,
+    plotly,
+    sf,
+    units
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
